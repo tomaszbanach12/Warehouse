@@ -1,0 +1,25 @@
+USE [warehouse_db]
+GO
+
+/****** Object:  StoredProcedure [dbo].[proc_documents_update]    Script Date: 26.11.2019 19:42:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[proc_documents_update]
+(
+	@date date,
+	@client_number int,
+	@name varchar(MAX),
+	@Original_id int
+)
+AS
+	SET NOCOUNT OFF;
+UPDATE documents
+SET          date = @date, client_number = @client_number, name = @name
+WHERE  (id = @Original_id)
+GO
+
+

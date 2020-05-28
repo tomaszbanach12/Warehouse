@@ -1,0 +1,27 @@
+USE [warehouse_db]
+GO
+
+/****** Object:  StoredProcedure [dbo].[proc_positions_update]    Script Date: 26.11.2019 19:43:57 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[proc_positions_update]
+(
+	@name varchar(MAX),
+	@quantity int,
+	@net_price decimal(18, 2),
+	@gross_price decimal(18, 2),
+	@Original_id int
+)
+AS
+	SET NOCOUNT OFF;
+UPDATE positions
+SET          name = @name, quantity = @quantity, net_price = @net_price, gross_price = @gross_price
+WHERE  (id = @Original_id);
+		
+GO
+
+

@@ -1,0 +1,26 @@
+USE [warehouse_db]
+GO
+
+/****** Object:  StoredProcedure [dbo].[proc_positions_insert]    Script Date: 26.11.2019 19:43:15 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[proc_positions_insert]
+(
+	@document_id int,
+	@name varchar(MAX),
+	@quantity int,
+	@net_price decimal(18, 2),
+	@gross_price decimal(18, 2)
+)
+AS
+	SET NOCOUNT OFF;
+INSERT INTO positions
+                  (document_id, name, quantity, net_price, gross_price)
+VALUES (@document_id,@name,@quantity,@net_price,@gross_price)
+GO
+
+

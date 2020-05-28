@@ -1,0 +1,28 @@
+USE [warehouse_db]
+GO
+
+/****** Object:  StoredProcedure [dbo].[proc_documents_delete]    Script Date: 26.11.2019 19:41:20 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[proc_documents_delete]
+(
+	@Original_id int
+)
+AS
+	SET NOCOUNT OFF;
+	BEGIN TRANSACTION
+DELETE FROM positions
+WHERE  (document_id = @Original_id);
+	 
+	 
+
+DELETE FROM documents
+WHERE  (id = @Original_id)
+COMMIT TRANSACTION
+GO
+
+

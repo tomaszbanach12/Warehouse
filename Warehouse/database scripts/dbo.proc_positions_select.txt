@@ -1,0 +1,22 @@
+USE [warehouse_db]
+GO
+
+/****** Object:  StoredProcedure [dbo].[proc_positions_select]    Script Date: 26.11.2019 19:43:34 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[proc_positions_select]
+(
+	@Document_id int
+)
+AS
+	SET NOCOUNT ON;
+SELECT id, document_id, name, quantity, net_price, gross_price
+FROM     positions
+WHERE  (document_id = @Document_id)
+GO
+
+

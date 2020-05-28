@@ -1,0 +1,26 @@
+USE [warehouse_db]
+GO
+
+/****** Object:  StoredProcedure [dbo].[proc_documents_select]    Script Date: 26.11.2019 19:41:58 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[proc_documents_select]
+AS
+	SET NOCOUNT ON;
+SELECT id, date, client_number, name,
+                      (SELECT COALESCE
+                                             ((SELECT SUM(net_price * quantity) AS Expr1
+                                               FROM      positions AS positions_1
+                                               WHERE   (document_id = documents.id)), 0) AS Expr1) AS net_price,
+                      (SELECT COALESCE
+                                             ((SELECT SUM(gross_price * quantity) AS Expr1
+                                               FROM      positions AS positions_1
+                                               WHERE   (document_id = documents.id)), 0) AS Expr1) AS gross_price
+FROM     documents
+GO
+
+

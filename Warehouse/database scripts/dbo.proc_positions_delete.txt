@@ -1,0 +1,21 @@
+USE [warehouse_db]
+GO
+
+/****** Object:  StoredProcedure [dbo].[proc_positions_delete]    Script Date: 26.11.2019 19:42:57 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[proc_positions_delete]
+(
+	@Original_id int
+)
+AS
+	SET NOCOUNT OFF;
+DELETE FROM positions
+WHERE  (id = @Original_id)
+GO
+
+

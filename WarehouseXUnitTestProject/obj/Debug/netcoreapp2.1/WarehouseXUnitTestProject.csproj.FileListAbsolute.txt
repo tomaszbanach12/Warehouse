@@ -1,0 +1,14 @@
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\bin\Debug\netcoreapp2.1\WarehouseXUnitTestProject.deps.json
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\bin\Debug\netcoreapp2.1\WarehouseXUnitTestProject.runtimeconfig.json
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\bin\Debug\netcoreapp2.1\WarehouseXUnitTestProject.runtimeconfig.dev.json
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\bin\Debug\netcoreapp2.1\WarehouseXUnitTestProject.dll
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\bin\Debug\netcoreapp2.1\WarehouseXUnitTestProject.pdb
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\obj\Debug\netcoreapp2.1\WarehouseXUnitTestProject.csprojAssemblyReference.cache
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\obj\Debug\netcoreapp2.1\WarehouseXUnitTestProject.csproj.CoreCompileInputs.cache
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\obj\Debug\netcoreapp2.1\WarehouseXUnitTestProject.AssemblyInfoInputs.cache
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\obj\Debug\netcoreapp2.1\WarehouseXUnitTestProject.AssemblyInfo.cs
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\obj\Debug\netcoreapp2.1\WarehouseXUnitTestProject.dll
+C:\Projekty\DotNET\Warehouse\WarehouseXUnitTestProject\obj\Debug\netcoreapp2.1\WarehouseXUnitTestProject.pdb
