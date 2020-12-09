@@ -5856,19 +5856,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tomasz\\.nuget\\packages\\": {}
+    "C:\\Users\\T\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tomasz\\Desktop\\Werehouse\\WarehouseXUnitTestProject\\WarehouseXUnitTestProject.csproj",
+      "projectUniqueName": "C:\\Projekty\\DotNET\\Warehouse\\WarehouseXUnitTestProject\\WarehouseXUnitTestProject.csproj",
       "projectName": "WarehouseXUnitTestProject",
-      "projectPath": "C:\\Users\\Tomasz\\Desktop\\Werehouse\\WarehouseXUnitTestProject\\WarehouseXUnitTestProject.csproj",
-      "packagesPath": "C:\\Users\\Tomasz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tomasz\\Desktop\\Werehouse\\WarehouseXUnitTestProject\\obj\\",
+      "projectPath": "C:\\Projekty\\DotNET\\Warehouse\\WarehouseXUnitTestProject\\WarehouseXUnitTestProject.csproj",
+      "packagesPath": "C:\\Users\\T\\.nuget\\packages\\",
+      "outputPath": "C:\\Projekty\\DotNET\\Warehouse\\WarehouseXUnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tomasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\T\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5880,6 +5880,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "projectReferences": {}
         }
       },
@@ -5891,6 +5892,7 @@
     },
     "frameworks": {
       "netcoreapp2.1": {
+        "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -5921,7 +5923,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

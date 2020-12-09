@@ -1,18 +1,16 @@
-using System;
-using Xunit;
-using System.Net.Http;
 using Newtonsoft.Json.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace WarehouseXUnitTestProject
 {
     //1) arrange - prepare to the tests
     //2) act - testing application logic
     //3) assert - make sure that the application logic is what we expect
-
-    public class UnitTest1
+    public class HttpResponseTest
     {
-        public async Task<string> execute(string userAgent, string userName, string repoName)
+        public async Task<string> GetHttpResponse(string userAgent, string userName, string repoName)
         {
             HttpClient httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Add(userAgent, repoName);
@@ -23,16 +21,16 @@ namespace WarehouseXUnitTestProject
         }
 
         [Fact]
-        void returns_response()
+        void Returns_Response()
         {
-            string response = execute("user-agent", "tomislav21", "Warehouse").Result;
+            string response = GetHttpResponse("user-agent", "tomislav21", "Warehouse").Result;
             Assert.NotEmpty(response);
         }
 
         [Fact]
-        void returns_json_response()
+        void ReturnsJson_Response()
         {
-            string response = execute("user-agent", "tomislav21", "Warehouse").Result;
+            string response = GetHttpResponse("user-agent", "tomislav21", "Warehouse").Result;
             var exception = Record.Exception(() => JObject.Parse(response));
             Assert.Null(exception);
         }

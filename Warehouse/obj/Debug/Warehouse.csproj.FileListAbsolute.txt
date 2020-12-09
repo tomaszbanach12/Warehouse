@@ -2,7 +2,6 @@ C:\Projekty\DotNET\Warehouse\Warehouse\bin\Debug\Warehouse.exe.config
 C:\Projekty\DotNET\Warehouse\Warehouse\bin\Debug\Warehouse.exe
 C:\Projekty\DotNET\Warehouse\Warehouse\bin\Debug\Warehouse.pdb
 C:\Projekty\DotNET\Warehouse\Warehouse\obj\Debug\Warehouse.csprojAssemblyReference.cache
-C:\Projekty\DotNET\Warehouse\Warehouse\obj\Debug\Warehouse.Form1.resources
 C:\Projekty\DotNET\Warehouse\Warehouse\obj\Debug\Warehouse.Properties.Resources.resources
 C:\Projekty\DotNET\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.GenerateResource.cache
 C:\Projekty\DotNET\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.CoreCompileInputs.cache
@@ -24,3 +23,17 @@ C:\Users\Tomasz\Desktop\Werehouse\Warehouse\obj\Debug\Warehouse.csproj.CoreCompi
 C:\Users\Tomasz\Desktop\Werehouse\Warehouse\obj\Debug\Warehouse.csproj.CopyComplete
 C:\Users\Tomasz\Desktop\Werehouse\Warehouse\obj\Debug\Warehouse.exe
 C:\Users\Tomasz\Desktop\Werehouse\Warehouse\obj\Debug\Warehouse.pdb
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\bin\Debug\Warehouse.exe.config
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\bin\Debug\Warehouse.exe
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\bin\Debug\Warehouse.pdb
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.csprojAssemblyReference.cache
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.Form1.resources
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.Properties.Resources.resources
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.GenerateResource.cache
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.CoreCompileInputs.cache
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.CopyComplete
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.exe
+C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.pdb
+C:\Projekty\DotNET\Warehouse\Warehouse\obj\Debug\Warehouse.MainForm.resources

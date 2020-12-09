@@ -6,12 +6,12 @@ using Newtonsoft.Json.Linq;
 
 namespace Warehouse
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         bool InsertModeDocument = true;
         bool InsertModePosition = true;
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
 

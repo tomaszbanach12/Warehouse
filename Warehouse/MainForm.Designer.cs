@@ -1,6 +1,6 @@
 ﻿namespace Warehouse
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.btnInsertOrUpdateDocument = new System.Windows.Forms.Button();
             this.tbNameDocument = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -171,6 +171,7 @@
             this.dgvDocuments.Name = "dgvDocuments";
             this.dgvDocuments.ReadOnly = true;
             this.dgvDocuments.RowHeadersVisible = false;
+            this.dgvDocuments.RowHeadersWidth = 51;
             this.dgvDocuments.RowTemplate.Height = 24;
             this.dgvDocuments.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDocuments.Size = new System.Drawing.Size(541, 290);
@@ -181,15 +182,18 @@
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
             this.idDataGridViewTextBoxColumn.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
             this.idDataGridViewTextBoxColumn.ReadOnly = true;
             this.idDataGridViewTextBoxColumn.Visible = false;
+            this.idDataGridViewTextBoxColumn.Width = 125;
             // 
             // dateDataGridViewTextBoxColumn
             // 
             this.dateDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.dateDataGridViewTextBoxColumn.DataPropertyName = "date";
             this.dateDataGridViewTextBoxColumn.HeaderText = "Data";
+            this.dateDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
             this.dateDataGridViewTextBoxColumn.ReadOnly = true;
             this.dateDataGridViewTextBoxColumn.Width = 67;
@@ -199,6 +203,7 @@
             this.clientnumberDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.clientnumberDataGridViewTextBoxColumn.DataPropertyName = "client_number";
             this.clientnumberDataGridViewTextBoxColumn.HeaderText = "Numer klienta";
+            this.clientnumberDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.clientnumberDataGridViewTextBoxColumn.Name = "clientnumberDataGridViewTextBoxColumn";
             this.clientnumberDataGridViewTextBoxColumn.ReadOnly = true;
             this.clientnumberDataGridViewTextBoxColumn.Width = 124;
@@ -208,6 +213,7 @@
             this.nameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
             this.nameDataGridViewTextBoxColumn.HeaderText = "Nazwa";
+            this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
             this.nameDataGridViewTextBoxColumn.ReadOnly = true;
             this.nameDataGridViewTextBoxColumn.Width = 79;
@@ -217,6 +223,7 @@
             this.netpriceDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.netpriceDataGridViewTextBoxColumn.DataPropertyName = "net_price";
             this.netpriceDataGridViewTextBoxColumn.HeaderText = "Cena Netto";
+            this.netpriceDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.netpriceDataGridViewTextBoxColumn.Name = "netpriceDataGridViewTextBoxColumn";
             this.netpriceDataGridViewTextBoxColumn.ReadOnly = true;
             this.netpriceDataGridViewTextBoxColumn.Width = 108;
@@ -226,6 +233,7 @@
             this.grosspriceDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.grosspriceDataGridViewTextBoxColumn.DataPropertyName = "gross_price";
             this.grosspriceDataGridViewTextBoxColumn.HeaderText = "Cena brutto";
+            this.grosspriceDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.grosspriceDataGridViewTextBoxColumn.Name = "grosspriceDataGridViewTextBoxColumn";
             this.grosspriceDataGridViewTextBoxColumn.ReadOnly = true;
             this.grosspriceDataGridViewTextBoxColumn.Width = 111;
@@ -444,6 +452,7 @@
             this.dgvPositions.Name = "dgvPositions";
             this.dgvPositions.ReadOnly = true;
             this.dgvPositions.RowHeadersVisible = false;
+            this.dgvPositions.RowHeadersWidth = 51;
             this.dgvPositions.RowTemplate.Height = 24;
             this.dgvPositions.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvPositions.Size = new System.Drawing.Size(377, 290);
@@ -454,23 +463,28 @@
             // 
             this.idDataGridViewTextBoxColumn1.DataPropertyName = "id";
             this.idDataGridViewTextBoxColumn1.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
             this.idDataGridViewTextBoxColumn1.ReadOnly = true;
             this.idDataGridViewTextBoxColumn1.Visible = false;
+            this.idDataGridViewTextBoxColumn1.Width = 125;
             // 
             // documentidDataGridViewTextBoxColumn
             // 
             this.documentidDataGridViewTextBoxColumn.DataPropertyName = "document_id";
             this.documentidDataGridViewTextBoxColumn.HeaderText = "document_id";
+            this.documentidDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.documentidDataGridViewTextBoxColumn.Name = "documentidDataGridViewTextBoxColumn";
             this.documentidDataGridViewTextBoxColumn.ReadOnly = true;
             this.documentidDataGridViewTextBoxColumn.Visible = false;
+            this.documentidDataGridViewTextBoxColumn.Width = 125;
             // 
             // nameDataGridViewTextBoxColumn1
             // 
             this.nameDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.nameDataGridViewTextBoxColumn1.DataPropertyName = "name";
             this.nameDataGridViewTextBoxColumn1.HeaderText = "Nazwa";
+            this.nameDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
             this.nameDataGridViewTextBoxColumn1.ReadOnly = true;
             this.nameDataGridViewTextBoxColumn1.Width = 79;
@@ -480,6 +494,7 @@
             this.quantityDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.quantityDataGridViewTextBoxColumn.DataPropertyName = "quantity";
             this.quantityDataGridViewTextBoxColumn.HeaderText = "Ilość";
+            this.quantityDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.quantityDataGridViewTextBoxColumn.Name = "quantityDataGridViewTextBoxColumn";
             this.quantityDataGridViewTextBoxColumn.ReadOnly = true;
             this.quantityDataGridViewTextBoxColumn.Width = 65;
@@ -489,6 +504,7 @@
             this.netpriceDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.netpriceDataGridViewTextBoxColumn1.DataPropertyName = "net_price";
             this.netpriceDataGridViewTextBoxColumn1.HeaderText = "Cena Netto";
+            this.netpriceDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.netpriceDataGridViewTextBoxColumn1.Name = "netpriceDataGridViewTextBoxColumn1";
             this.netpriceDataGridViewTextBoxColumn1.ReadOnly = true;
             this.netpriceDataGridViewTextBoxColumn1.Width = 108;
@@ -498,6 +514,7 @@
             this.grosspriceDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
             this.grosspriceDataGridViewTextBoxColumn1.DataPropertyName = "gross_price";
             this.grosspriceDataGridViewTextBoxColumn1.HeaderText = "Cena Brutto";
+            this.grosspriceDataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.grosspriceDataGridViewTextBoxColumn1.Name = "grosspriceDataGridViewTextBoxColumn1";
             this.grosspriceDataGridViewTextBoxColumn1.ReadOnly = true;
             this.grosspriceDataGridViewTextBoxColumn1.Width = 112;
@@ -539,6 +556,7 @@
             this.Controls.Add(this.lGitHubInfo);
             this.Controls.Add(this.gbPositions);
             this.Controls.Add(this.gbDocuments);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
