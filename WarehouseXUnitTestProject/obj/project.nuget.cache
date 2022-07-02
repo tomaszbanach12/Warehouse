@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nPecfS3La/k6gvGPvyWpZIwlcna0Of9saowVYrfLuicQ5+xPtudawfcljhpNaGkptOxoEP+IS6UFBXIXcJnMqA==",
+  "dgSpecHash": "JOY64DCG+pEyKd3pCLveGMTeAKSGQOjDuIWOHCgXhURmjdt15hKuMy1WANVKnQz9JCDx9OHQbeO0MC2+np+bcw==",
   "success": true,
-  "projectFilePath": "C:\\Projekty\\DotNET\\Warehouse\\WarehouseXUnitTestProject\\WarehouseXUnitTestProject.csproj",
+  "projectFilePath": "C:\\Projekty\\Warehouse\\WarehouseXUnitTestProject\\WarehouseXUnitTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
     "C:\\Users\\T\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
