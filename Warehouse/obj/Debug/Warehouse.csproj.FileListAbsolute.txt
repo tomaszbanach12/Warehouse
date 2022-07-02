@@ -37,3 +37,17 @@ C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.CopyCompl
 C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.exe
 C:\Users\Tomasz\Desktop\Warehouse\Warehouse\obj\Debug\Warehouse.pdb
 C:\Projekty\DotNET\Warehouse\Warehouse\obj\Debug\Warehouse.MainForm.resources
+C:\Projekty\Warehouse\Warehouse\bin\Debug\Warehouse.exe.config
+C:\Projekty\Warehouse\Warehouse\bin\Debug\Warehouse.exe
+C:\Projekty\Warehouse\Warehouse\bin\Debug\Warehouse.pdb
+C:\Projekty\Warehouse\Warehouse\bin\Debug\Newtonsoft.Json.dll
+C:\Projekty\Warehouse\Warehouse\bin\Debug\Newtonsoft.Json.xml
+C:\Projekty\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.AssemblyReference.cache
+C:\Projekty\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.SuggestedBindingRedirects.cache
+C:\Projekty\Warehouse\Warehouse\obj\Debug\Warehouse.MainForm.resources
+C:\Projekty\Warehouse\Warehouse\obj\Debug\Warehouse.Properties.Resources.resources
+C:\Projekty\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.GenerateResource.cache
+C:\Projekty\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.CoreCompileInputs.cache
+C:\Projekty\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.CopyComplete
+C:\Projekty\Warehouse\Warehouse\obj\Debug\Warehouse.exe
+C:\Projekty\Warehouse\Warehouse\obj\Debug\Warehouse.pdb

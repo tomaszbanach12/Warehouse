@@ -5861,11 +5861,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projekty\\DotNET\\Warehouse\\WarehouseXUnitTestProject\\WarehouseXUnitTestProject.csproj",
+      "projectUniqueName": "C:\\Projekty\\Warehouse\\WarehouseXUnitTestProject\\WarehouseXUnitTestProject.csproj",
       "projectName": "WarehouseXUnitTestProject",
-      "projectPath": "C:\\Projekty\\DotNET\\Warehouse\\WarehouseXUnitTestProject\\WarehouseXUnitTestProject.csproj",
+      "projectPath": "C:\\Projekty\\Warehouse\\WarehouseXUnitTestProject\\WarehouseXUnitTestProject.csproj",
       "packagesPath": "C:\\Users\\T\\.nuget\\packages\\",
-      "outputPath": "C:\\Projekty\\DotNET\\Warehouse\\WarehouseXUnitTestProject\\obj\\",
+      "outputPath": "C:\\Projekty\\Warehouse\\WarehouseXUnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\T\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5923,7 +5923,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
